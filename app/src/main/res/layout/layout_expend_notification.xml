@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/expend_notification_text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="expend notification title"
+        android:textColor="#BBC"
+        style="@style/TextAppearance.Compat.Notification.Title"/>
+
+    <TextView
+        android:id="@+id/expend_notification_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="expand notification info1"
+        style="@style/TextAppearance.Compat.Notification"/>
+
+    <ImageView
+        android:id="@+id/expend_notification_text_view2"
+        style="@style/TextAppearance.Compat.Notification.Info"
+        android:src="@drawable/img_snow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

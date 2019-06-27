@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/normal_notification_text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nomal notification"
+        style="@style/TextAppearance.Compat.Notification.Title"/>
+
+    <TextView
+        android:id="@+id/normal_notification_text_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="normal notification context"
+        style="@style/TextAppearance.Compat.Notification.Line2"/>
+</LinearLayout>
